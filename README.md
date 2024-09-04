@@ -1,4 +1,4 @@
 # Minimo
 minimo
 
-Preview :
+Preview : https://aimaksim.github.io/minimo/
