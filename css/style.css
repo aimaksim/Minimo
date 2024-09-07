@@ -8,7 +8,7 @@ body{
 /* header start */
 header{
     padding: 30px 0;
-    border: 1px solid;
+    /*border: 1px solid;*/
 }
 .container{
     overflow: hidden;
@@ -19,11 +19,11 @@ header{
 .logo{
     width: 7%;
     float: left;
-    margin: 10px 0;
+    margin-top: 10px;
     /*border: 1px solid blue;*/
 }
 .logo a{
-
+    display: inline-block;
 }
 .logo a img{
     width: 100%;
@@ -57,3 +57,89 @@ header{
     margin-right: 0;
 }
 /* header end */
+/*banner start*/
+.banner{}
+.b_img{}
+.b_img img{
+    width: 100%;
+}
+/*banner end*/
+/*getaway start*/
+.getaway{
+	padding: 100px 0;
+}
+.container2{
+	margin: 0 auto;
+	width: 80%;
+/*	border: 1px solid;*/
+}
+.g_content{}
+.c_light{
+	margin: 0;
+	font-family: "Ubuntu",sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.c_title{
+	margin: 20px 0 30px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_text{
+	line-height: 24px;
+	word-spacing: ;
+}
+.g_link{
+	margin-top: 40px;
+	display: block;
+	color: #626262;
+	text-decoration: none;
+}
+/*getaway end*/
+/*newspaper start*/
+.news{
+	background-color: #f0f0f0;
+	padding: 70px 0;
+}
+.signup{
+	text-align: center;
+}
+.s_h1{
+	color: #333333;	
+	margin-top: 0;
+	margin-bottom: 70px;
+}
+.s_form{
+	width: 400px;
+    position: relative;
+    margin: 0 auto;
+}
+.s_form input{
+	font-family: "Playfair Display",serif;
+	font-size: 14px;
+	color: #626262;
+	width: 345px;
+	height: 45px;
+	border: none;
+	border-bottom: 1px solid #626262;
+	background-color: transparent;
+	padding-left: 5px;
+	padding-right: 45px;
+}
+.s_form input : focus{
+	outline: 0;
+}
+.s_form button{
+	position: absolute;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	top: 15px;
+	right: 0;
+}
+.s_form button: focus{
+	outline: 0;
+}
+.s_form button img{}
+/*newspaper end*/
